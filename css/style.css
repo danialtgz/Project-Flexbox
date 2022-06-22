@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover{
+    color: #ff4a52;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    transition: 0.2s color
+}
+li:hover{
+    color: #ff4a52;
+}
+.d-flex{
+    display: flex !important;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.row{
+    display: flex !important;
+    width: 100%;
+}
+.font-15{
+    font-size: 15px;
+}
+header{
+    background-color: #ffff;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: 60px;
+    align-items: center;
+}
+.drop-down-menu{
+    display: none;
+}
+nav ul li{
+    margin-right: 30px;
+}
+.header-icon a{
+    margin-right: 10px;
+}
+.slider{
+    background: url("../images/banner2.png");
+    height: 45vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-text{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vw;
+}
+.slider-text h3{
+    font-family: cursive;
+    font-size: 8vw;
+    color: white;
+    font-weight: 400;
+}
+.slider-text p{
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 400;
+}
+.slider-btn{
+    background-color: #1ec6b6;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.7vw;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 1vw 1.5vw;
+    transition: 0.5s;
+}
+.slider-btn:hover{
+    background-color: #ff4a52;
+    color: white !important;
+}
