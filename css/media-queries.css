@@ -1,0 +1,48 @@
+/* Mobile size */
+@media(max-width: 576px){
+    header nav{
+        display: none;
+    }
+    .slider{
+        height: 450px;
+    }
+    .slider-text{
+        flex-direction: column;
+        height: 400px;
+        justify-content: center;
+    }
+    .slider-text h3{
+        font-size: 50px;
+        margin: 10px 0px;
+    }
+    .slider-text p{
+        font-size: 17px;
+        margin: 20px 0px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .slider-text button{
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 20px 0px;
+    }
+    .popular-container article{
+        margin: 0px 50px;
+    }
+    .popular-heading h3{
+        font-size: 40px;
+    }
+    .popular-heading p{
+        font-size: 16px;
+        text-align: center;
+        margin: 0px 25px;
+
+    }
+}
+/* computer monitor size */
+@media(min-width:992px){
+    .search-bar, .search-form{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
